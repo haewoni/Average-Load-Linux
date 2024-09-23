@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/073eff38-d117-469a-9e6c-92469d89449c)# Average-Load-Linux
+# Average-Load-Linux
 
 ---
 
