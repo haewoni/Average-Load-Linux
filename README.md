@@ -150,17 +150,21 @@ watch -n 1 bash avg_load.sh
 ### 정보 수집 결과
 
 ### case 1
-<h3>stress 명령어를 통해 부하 생성 전 상태 </h3>
+#### stress 명령어를 통해 부하 생성 전 상태
+
 ![image](https://github.com/user-attachments/assets/b416e230-35a2-46e5-890b-3db3d6ab8be8)
 
 ### case 2
-<h3>stress --cpu 8 --timeout 600 명령어를 통해 8개의 process가 부하를 발생시킨 테스트 결과 </h3>
+#### stress --cpu 8 --timeout 600 명령어를 통해 8개의 process가 부하를 발생시킨 테스트 결과
+
 ![image](https://github.com/user-attachments/assets/b540a044-e472-412f-829b-e153276edaae)
 
 ### case 3
-<h3>stress -i 4 --timeout 600 명령어를 통해 4개의 process가 I/O부하를 발생시킨 테스트 결과 </h3>
+#### stress -i 4 --timeout 600 명령어를 통해 4개의 process가 I/O부하를 발생시킨 테스트 결과
+
 ![image](https://github.com/user-attachments/assets/60aa46fe-8cb6-4962-a7e6-e092368b3e3e)
 
 ### case 4 
-<h3>stress --cpu 3 --timeout 600 명령어를 통해 3개의 process가 부하를 발생시킨 테스트 결과 </h3>
+#### stress --cpu 3 --timeout 600 명령어를 통해 3개의 process가 부하를 발생시킨 테스트 결과
+
 ![image](https://github.com/user-attachments/assets/f1c7b42d-07b1-4670-9b22-4f4fe8974fdc)
