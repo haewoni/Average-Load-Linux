@@ -1,5 +1,5 @@
-# Average Load in Linux
-
+# <p align="center"> Average Load in Linux
+## 리눅스 환경의 load average 분석 
 ---
 
 <h2 style="font-size: 25px;"> 개발팀원👨‍👨‍👧‍👦<br>
@@ -18,7 +18,7 @@
 실제 운영환경에서 부하 발생시 장애 상황 및 정보를 일괄적으로 확인하며 대응하기 위함 <br>
 1. 시스템 안정성 확보
 2. 장애 상황 대비
-
+<br>
 ## Average Load 개념 :mag_right:
 
 ### uptime 명령어
@@ -153,7 +153,9 @@ echo "$pidstat_output" | awk '
 ```
 watch -n 1 bash avg_load.sh
 ```
-### 정보 수집 결과
+<br>
+
+## 정보 수집 결과
 
 ### case 1
 #### stress 명령어를 통해 부하 생성 전 상태
