@@ -1,5 +1,5 @@
 # <p align="center"> Average Load in Linux
-## 리눅스 환경의 load average 분석 
+### 리눅스 환경의 load average 분석 
 ---
 
 <h2 style="font-size: 25px;"> 개발팀원👨‍👨‍👧‍👦<br>
