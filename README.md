@@ -145,12 +145,17 @@ echo "$pidstat_output" | awk '
 ```
 ### script 실행 명령어 (5초마다 정보 수집)
 ```
-watch -n 5 ./avg_load.sh
+watch -n 1 bash avg_load.sh
 ```
 ### 정보 수집 결과
-![image](https://github.com/user-attachments/assets/72909b7d-5bd0-4aa5-8e60-66a144751ac9)
 
+### case 1
+![image](https://github.com/user-attachments/assets/b416e230-35a2-46e5-890b-3db3d6ab8be8)
 
+### case 2
+![image](https://github.com/user-attachments/assets/b540a044-e472-412f-829b-e153276edaae)
 
+### case 3
+![image](https://github.com/user-attachments/assets/60aa46fe-8cb6-4962-a7e6-e092368b3e3e)
 
 
