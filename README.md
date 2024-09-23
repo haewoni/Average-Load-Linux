@@ -23,11 +23,13 @@ up 2 days, 20:14     // system uptime // 시스템 가동시간
 load average: 0.63, 0.83, 0.88  // 지난 1분, 5분, 15분 동안의 평균 부하
 ```
 ### Average load ?
-Runnable 프로세스 : CPU를 사용 중이거나 CPU time이 할당되기를 기다르는 프로세스
+- Runnable 프로세스 <br>
+: CPU를 사용 중이거나 CPU time이 할당되기를 기다르는 프로세스
 ps 명령어를 통해 확인할 수 있습니다.
 Running(실행 중): 현재 CPU를 사용 중인 상태.
-Runnable(실행 가능한): CPU 사용이 가능하지만, 다른 프로세스가 CPU를 사용 중이어서 차례를 기다리는 상태.
-Uninterruptible 프로세스 : 중요한 커널 프로세스를 실행 중이기 때문에 외부 신호나 인터럽트로 중단될 수 없는 상태입니다.
+Runnable(실행 가능한): CPU 사용이 가능하지만, 다른 프로세스<br>가 CPU를 사용 중이어서 차례를 기다리는 상태.
+- Uninterruptible 프로세스 <br>
+: 중요한 커널 프로세스를 실행 중이기 때문에 외부 신호나 인터럽트로 중단될 수 없는 상태입니다.
 주로 D(Disk Sleep or Uninterruptible Sleep) 상태로 표시
 주로 하드웨어 장치로부터 I/O 응답을 기다리는 중
 예를 들어, 디스크에서 데이터를 읽거나 쓰는 작업을 수행할 때, 해당 작업이 완료될 때까지 프로세스는 "D" 상태로 전환
